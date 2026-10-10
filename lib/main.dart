@@ -1,27 +1,12 @@
-Act as an expert Android developer and full-stack mobile engineer. Generate a complete, production-ready source code structure for a fully functional social media media-downloader and music player Android application named "MediaStream Pro" (or "MelodyGrab") using Java and XML layouts.
+Act as an expert Flutter and Dart developer. Generate the complete, standalone, and fully working source code for the "main.dart" file of a feature-rich mobile application built with Flutter.
 
-The application must include the following core features and architecture:
+The application must include the following implementation directly inside a single clean code block:
+1. MaterialApp configuration with support for light and dark themes, and a dynamic theme switcher state.
+2. A multi-language support state framework (English, French, Arabic text mapping).
+3. A home screen dashboard containing:
+   - A welcoming app bar with app title and theme toggle action.
+   - A grid or list of features including a "Social Media Downloader" simulator card, "Privacy & Security Settings" section, and a "More Features Coming Soon" card.
+   - A functional floating action button or share button that triggers a social sharing intent for WhatsApp, Telegram, and Facebook.
+   - A modern bottom navigation bar or drawer for smooth switching between Home, Settings, and About views.
 
-1. Universal Social Media Downloader:
-- A dedicated downloader engine supporting audio/video link extraction from major social platforms (TikTok, Instagram, Facebook, and YouTube).
-- Progress bar, download manager notification, and local storage saving mechanism.
-
-2. Authentication System:
-- Clean Login and Register activities with Firebase Authentication (Email/Password & Google Sign-In) or secure local user session management.
-
-3. Privacy & Security Settings:
-- A dedicated Settings screen including: App Lock (PIN/Biometric option), Clear Cache, Data Usage preferences, and Privacy Policy / Terms of Service info views.
-
-4. Multi-Language Support (Locale Manager):
-- Runtime language switcher supporting English, French (Français), and Arabic (العربية) with RTL layout support for Arabic.
-
-5. Day / Night Theme Toggle:
-- Dark Mode and Light Mode toggle switch implemented dynamically using AppCompatDelegate to persist user preference.
-
-6. Social Sharing Integration:
-- Built-in share mechanism allowing users to share the app invite link or downloaded tracks directly via Telegram, WhatsApp, and Facebook intents.
-
-7. "Coming Soon" Feature Section:
-- A dedicated UI section or card in the dashboard labeled "More Features Coming Soon" (e.g., Cloud Sync, Equalizer, Playlist Sharing) to give the app a polished, active roadmap feel.
-
-Please provide clean, well-commented, and robust Java classes and XML layout files (activity_main, activity_settings, fragment_downloader, etc.) ensuring full compatibility and error-free compilation in mobile IDEs.
+Provide ONLY the raw, complete, and production-ready Dart code for the entire main.dart file without any truncation, placeholders, or descriptive text outside the code block.
